@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.portfolio.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My App Portfolio"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies"
+        android:id="@+id/button_popular_movies"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="33dp"
+        android:layout_alignRight="@+id/button_material"
+        android:layout_alignEnd="@+id/button_material"
+        android:layout_alignLeft="@+id/button_material"
+        android:layout_alignStart="@+id/button_material"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Hawk"
+        android:id="@+id/button_stock_hawk"
+        android:layout_below="@+id/button_popular_movies"
+        android:layout_alignRight="@+id/button_material"
+        android:layout_alignEnd="@+id/button_material"
+        android:layout_alignLeft="@+id/button_material"
+        android:layout_alignStart="@+id/button_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/button_build_it_bigger"
+        android:layout_below="@+id/button_stock_hawk"
+        android:layout_alignRight="@+id/button_material"
+        android:layout_alignEnd="@+id/button_material"
+        android:layout_alignLeft="@+id/button_material"
+        android:layout_alignStart="@+id/button_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make your App Material"
+        android:id="@+id/button_material"
+        android:layout_below="@+id/button_build_it_bigger"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Ubiquitous"
+        android:id="@+id/button_ubiquitous"
+        android:layout_below="@+id/button_material"
+        android:layout_alignRight="@+id/button_material"
+        android:layout_alignEnd="@+id/button_material"
+        android:layout_alignLeft="@+id/button_material"
+        android:layout_alignStart="@+id/button_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        android:id="@+id/button_capstone"
+        android:layout_below="@+id/button_ubiquitous"
+        android:layout_alignRight="@+id/button_material"
+        android:layout_alignEnd="@+id/button_material"
+        android:layout_alignLeft="@+id/button_material"
+        android:layout_alignStart="@+id/button_material" />
+</RelativeLayout>
